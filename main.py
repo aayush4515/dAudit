@@ -165,7 +165,7 @@ def extract_ls_status(soup):
 html_file = '/Users/aayush/Desktop/Projects/dAudit/example.html'
 
 # Call the functions to extract data from HTML file
-with open(html_file, 'r', encoding='utf-8') as file:    # opens the file as read-only and adds to the 'file' variable
+with open(html_file, 'r', encoding='utf-8') as file:    # opens the file as read-only and adds to the 'file' variable.
     soup = BeautifulSoup(file, 'html.parser')       # creates a BeautifulSoup object names soup by parsing the content of HTML file.
 
     # Call the function to extract the GPA

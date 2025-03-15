@@ -4,7 +4,7 @@ import pandas as pd
 file_path = '/Users/aayush/Desktop/Projects/dAudit/test.pdf'
 output_path = '/Users/aayush/Desktop/Projects/dAudit/output.xlsx'
 
-# # Converts PDF table to an Excel File
+# # Converts PDF table to an Excel File.
 def convert_pdf_to_excel(pdf_path, output_path):
     # Use `pages` parameter as 'all' to convert all pages or specify pages like '1,2,3'
     dfs = tabula.read_pdf(pdf_path, pages='1')
