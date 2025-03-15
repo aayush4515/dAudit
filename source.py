@@ -19,5 +19,5 @@ def convert_pdf_to_excel(pdf_path, output_path):
         for i, df in enumerate(dfs):
             df.to_excel(writer, sheet_name=f'Sheet{i+1}', index=False)
 
-# Example usage to convert PDF to Excel
+# Example usage to convert PDF to Excel.
 convert_pdf_to_excel(file_path, output_path)
